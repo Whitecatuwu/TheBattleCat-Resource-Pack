@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/template_spawn_egg_model",
+    "textures": {
+	"egg": "minecraft:item/spawneggs/creeper_spawn_egg"
+    }
+}
