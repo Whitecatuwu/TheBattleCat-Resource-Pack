@@ -1,4 +1,6 @@
 # How to download:
+![GITHUB]( https://github.com/Whitecatuwu/TheBattleCat-Java/blob/main/img1.png?raw=true "img1.png")
 
-![GITHUB]( https://github.com/Whitecatuwu/TheBattleCat-Java/blob/main/%E6%9C%AA%E5%91%BD%E5%90%8D.png "未命名.png")
+# How to switch versions:
+![GITHUB]( https://github.com/Whitecatuwu/TheBattleCat-Java/blob/main/img2.png?raw=true "img2.png")
 
