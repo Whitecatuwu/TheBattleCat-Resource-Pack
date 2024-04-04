@@ -1,0 +1,312 @@
+{
+  "music_disc.5": {
+    "sounds": [
+      {
+        "name": "records/5",
+        "stream": true,
+        "volume": 0.1
+      }
+    ],
+    "replace":true
+  },
+  "music_disc.11": {
+    "sounds": [
+      {
+        "name": "records/11",
+        "stream": true,
+        "volume": 0.2
+      }
+    ],
+    "replace":true
+  },
+  "music_disc.13": {
+    "sounds": [
+      {
+        "name": "records/13",
+        "stream": true,
+        "volume": 0.2
+      }
+    ],
+    "replace":true
+  },
+  "music_disc.blocks": {
+    "sounds": [
+      {
+        "name": "records/blocks",
+        "stream": true,
+        "volume": 0.2
+      }
+    ],
+    "replace":true
+  },
+  "music_disc.cat": {
+    "sounds": [
+      {
+        "name": "records/cat",
+        "stream": true,
+        "volume": 0.2
+      }
+    ],
+    "replace":true
+  },
+  "music_disc.chirp": {
+    "sounds": [
+      {
+        "name": "records/chirp",
+        "stream": true,
+        "volume": 0.1
+      }
+    ],
+    "replace":true
+  },
+  "music_disc.far": {
+    "sounds": [
+      {
+        "name": "records/far",
+        "stream": true,
+        "volume": 0.2
+      }
+    ],
+    "replace":true
+  },
+  "music_disc.mall": {
+    "sounds": [
+      {
+        "name": "records/mall",
+        "stream": true,
+        "volume": 0.2
+      }
+    ],
+    "replace":true
+  },
+  "music_disc.mellohi": {
+    "sounds": [
+      {
+        "name": "records/mellohi",
+        "stream": true,
+        "volume": 0.2
+      }
+    ],
+    "replace":true
+  },
+  "music_disc.otherside": {
+    "sounds": [
+      {
+        "name": "records/otherside",
+        "stream": true,
+        "volume": 0.1
+      }
+    ],
+    "replace":true
+  },
+  "music_disc.pigstep": {
+    "sounds": [
+      {
+        "name": "records/pigstep",
+        "stream": true,
+        "volume": 0.2
+      }
+    ],
+    "replace":true
+  },
+  "music_disc.relic": {
+    "sounds": [
+      {
+        "name": "records/relic",
+        "stream": true,
+        "volume": 0.1
+      }
+    ],
+    "replace":true
+  },
+  "music_disc.stal": {
+    "sounds": [
+      {
+        "name": "records/stal",
+        "stream": true,
+        "volume": 0.2
+      }
+    ],
+    "replace":true
+  },
+  "music_disc.strad": {
+    "sounds": [
+      {
+        "name": "records/strad",
+        "stream": true,
+        "volume": 0.2
+      }
+    ],
+    "replace":true
+  },
+  "music_disc.wait": {
+    "sounds": [
+      {
+        "name": "records/wait",
+        "stream": true,
+        "volume": 0.1
+      }
+    ],
+    "replace":true
+  },
+  "music_disc.ward": {
+    "sounds": [
+      {
+        "name": "records/ward",
+        "stream": true,
+        "volume": 0.2
+      }
+    ],
+    "replace":true
+  },
+  "music.dragon": {
+    "sounds": [
+      {
+        "name": "music/game/end/boss",
+        "stream": true,
+        "volume": 0.5
+      }
+    ],
+    "replace":true
+  },
+  "music.menu": {
+    "sounds": [
+      {
+        "name": "music/menu/menu1",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/menu/menu2",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/menu/menu3",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/menu/menu4",
+        "stream": true,
+        "volume": 0.4
+      }
+    ],
+    "replace":true
+  },
+  "entity.lightning_bolt.impact": {
+    "sounds": [
+      {
+        "name": "random/lightning_bolt",
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.entity.lightning_bolt.impact",
+    "replace":true
+  },
+  "entity.lightning_bolt.thunder": {
+    "sounds": [
+      {
+        "name": "random/lightning_bolt",
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.entity.lightning_bolt.thunder",
+    "replace":true
+  },
+  "entity.player.attack.crit": {
+    "sounds": [
+      {
+        "name": "entity/player/attack/crit",
+        "volume": 0.6
+      }
+    ],
+    "subtitle": "subtitles.entity.player.attack.crit",
+    "replace":true
+  },
+  "entity.player.attack.nodamage": {
+    "sounds": [
+      {
+        "name": "entity/player/attack/weak",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.entity.player.attack.weak",
+    "replace":true
+  },
+  "entity.player.attack.strong": {
+    "sounds": [
+      {
+        "name": "entity/player/attack/strong",
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.entity.player.attack.strong",
+    "replace":true
+  },
+  "entity.player.attack.weak": {
+    "sounds": [
+      {
+        "name": "entity/player/attack/weak",
+        "volume": 0.7
+      }
+    ],
+    "subtitle": "subtitles.entity.player.attack.weak",
+    "replace":true
+  },
+  "entity.player.death": {
+    "sounds": [
+      {
+        "name": "damage/death",
+        "volume": 1.0
+      } 
+    ],
+    "subtitle": "subtitles.entity.player.death",
+    "replace":true
+  },
+  "entity.player.attack.sweep": {
+    "sounds": [
+      {
+        "name": "entity/player/attack/sweep",
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.entity.player.attack.sweep",
+    "replace":true
+  },
+  "item.shield.block": {
+    "sounds": [
+      "item/shield/block"
+    ],
+    "subtitle": "subtitles.item.shield.block",
+    "replace":true
+  },
+  "entity.player.levelup": {
+    "sounds": [
+      {
+        "name":"random/levelup",
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.entity.player.levelup",
+    "replace":true
+  },
+  "ui.toast.in": {
+    "sounds": [
+      {
+        "name": "ui/toast/in",
+        "volume": 0.6
+      }
+    ],
+    "replace":true
+  },
+  "ui.toast.out": {
+    "sounds": [
+      {
+        "name": "ui/toast/out",
+        "volume": 0.6
+      }
+    ],
+    "replace":true
+  }
+}
