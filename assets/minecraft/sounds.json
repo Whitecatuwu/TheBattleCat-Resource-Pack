@@ -9,6 +9,7 @@
     ],
     "replace":true
   },
+
   "music_disc.11": {
     "sounds": [
       {
@@ -19,6 +20,7 @@
     ],
     "replace":true
   },
+
   "music_disc.13": {
     "sounds": [
       {
@@ -29,6 +31,7 @@
     ],
     "replace":true
   },
+
   "music_disc.blocks": {
     "sounds": [
       {
@@ -39,6 +42,7 @@
     ],
     "replace":true
   },
+
   "music_disc.cat": {
     "sounds": [
       {
@@ -49,6 +53,7 @@
     ],
     "replace":true
   },
+
   "music_disc.chirp": {
     "sounds": [
       {
@@ -59,6 +64,7 @@
     ],
     "replace":true
   },
+
   "music_disc.far": {
     "sounds": [
       {
@@ -69,6 +75,7 @@
     ],
     "replace":true
   },
+
   "music_disc.mall": {
     "sounds": [
       {
@@ -79,6 +86,7 @@
     ],
     "replace":true
   },
+
   "music_disc.mellohi": {
     "sounds": [
       {
@@ -89,6 +97,7 @@
     ],
     "replace":true
   },
+
   "music_disc.otherside": {
     "sounds": [
       {
@@ -99,6 +108,7 @@
     ],
     "replace":true
   },
+
   "music_disc.pigstep": {
     "sounds": [
       {
@@ -109,6 +119,7 @@
     ],
     "replace":true
   },
+
   "music_disc.relic": {
     "sounds": [
       {
@@ -119,6 +130,7 @@
     ],
     "replace":true
   },
+
   "music_disc.stal": {
     "sounds": [
       {
@@ -129,6 +141,7 @@
     ],
     "replace":true
   },
+
   "music_disc.strad": {
     "sounds": [
       {
@@ -139,6 +152,7 @@
     ],
     "replace":true
   },
+
   "music_disc.wait": {
     "sounds": [
       {
@@ -149,6 +163,7 @@
     ],
     "replace":true
   },
+
   "music_disc.ward": {
     "sounds": [
       {
@@ -159,6 +174,17 @@
     ],
     "replace":true
   },
+
+  "music.credits": {
+    "sounds": [
+      {
+        "name": "music/game/end/credits",
+        "stream": true
+      }
+    ],
+    "replace":true
+  },
+
   "music.dragon": {
     "sounds": [
       {
@@ -169,6 +195,7 @@
     ],
     "replace":true
   },
+
   "music.menu": {
     "sounds": [
       {
@@ -194,26 +221,37 @@
     ],
     "replace":true
   },
+
+  "block.enchantment_table.use": {
+    "sounds": [
+      "block/enchantment_table/enchant"
+    ],
+    "subtitle": "subtitles.block.enchantment_table.use",
+    "replace":true
+  },
+
   "entity.lightning_bolt.impact": {
     "sounds": [
       {
-        "name": "random/lightning_bolt",
+        "name": "random/lightning_impact",
         "volume": 1.0
       }
     ],
     "subtitle": "subtitles.entity.lightning_bolt.impact",
     "replace":true
   },
+
   "entity.lightning_bolt.thunder": {
     "sounds": [
       {
-        "name": "random/lightning_bolt",
+        "name": "random/lightning_thunder",
         "volume": 1.0
       }
     ],
     "subtitle": "subtitles.entity.lightning_bolt.thunder",
     "replace":true
   },
+
   "entity.player.attack.crit": {
     "sounds": [
       {
@@ -224,6 +262,7 @@
     "subtitle": "subtitles.entity.player.attack.crit",
     "replace":true
   },
+
   "entity.player.attack.nodamage": {
     "sounds": [
       {
@@ -234,6 +273,7 @@
     "subtitle": "subtitles.entity.player.attack.weak",
     "replace":true
   },
+
   "entity.player.attack.strong": {
     "sounds": [
       {
@@ -244,6 +284,7 @@
     "subtitle": "subtitles.entity.player.attack.strong",
     "replace":true
   },
+
   "entity.player.attack.weak": {
     "sounds": [
       {
@@ -254,6 +295,7 @@
     "subtitle": "subtitles.entity.player.attack.weak",
     "replace":true
   },
+
   "entity.player.death": {
     "sounds": [
       {
@@ -264,6 +306,19 @@
     "subtitle": "subtitles.entity.player.death",
     "replace":true
   },
+
+  "entity.player.attack.knockback": {
+    "sounds": [
+      {
+        "name": "entity/player/attack/knockback",
+        "volume": 0.8,
+	"pitch": 2.0
+      }
+    ],
+    "subtitle": "subtitles.entity.player.attack.knockback",
+    "replace":true
+  },
+
   "entity.player.attack.sweep": {
     "sounds": [
       {
@@ -274,6 +329,7 @@
     "subtitle": "subtitles.entity.player.attack.sweep",
     "replace":true
   },
+
   "item.shield.block": {
     "sounds": [
       "item/shield/block"
@@ -281,6 +337,7 @@
     "subtitle": "subtitles.item.shield.block",
     "replace":true
   },
+
   "entity.player.levelup": {
     "sounds": [
       {
@@ -291,6 +348,7 @@
     "subtitle": "subtitles.entity.player.levelup",
     "replace":true
   },
+
   "ui.toast.in": {
     "sounds": [
       {
@@ -300,6 +358,7 @@
     ],
     "replace":true
   },
+
   "ui.toast.out": {
     "sounds": [
       {
