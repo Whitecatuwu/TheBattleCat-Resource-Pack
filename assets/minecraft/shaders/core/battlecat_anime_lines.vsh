@@ -39,7 +39,7 @@ void main() {
     float frame = 30.0/2.0; // F/30f = 30*F/s
     float animation = GameTime * 1200 * 3.14 * frame;
 
-    if(Color.r == 0 && Color.g == 0 && Color.b == 0 && Color.a == 0.4 && Pos.z <= 10.0){
+    if(Color.r == 0 && Color.g == 0 && Color.b == 0 && Color.a == 0.4){
         lineOffset = lineOffset / LineWidth * 4.0;
         vertexColor = vec4(1.0, (sin(animation) >= 0), (sin(animation) < 0), 0.6);
     }
