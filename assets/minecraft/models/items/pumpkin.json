@@ -1,14 +1,5 @@
 {
-  "parent": "minecraft:block/jack_o_lantern",
-  "textures": {
-        "particle": "#front",
-        "down": "#bottom",
-        "up": "#top",
-        "north": "#side",
-        "east": "#front",
-        "south": "#side",
-        "west": "#side"
-  },
+  "parent": "block/pumpkin",
     "display": {
         "gui": {
             "rotation": [ 30, 135, 0 ],
@@ -41,4 +32,4 @@
             "scale": [ 0.40, 0.40, 0.40 ]
         }
     }
-}}
+}
