@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/spawn_egg",
+  "parent": "minecraft:item/template_spawn_egg_model",
     "textures": {
-        "egg": "minecraft:item/pig_spawn_egg"
+	"egg": "minecraft:item/spawneggs/pig_spawn_egg"
     }
 }
