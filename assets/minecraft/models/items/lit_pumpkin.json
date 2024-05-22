@@ -1,5 +1,14 @@
 {
-  "parent": "minecraft:block/carved_pumpkin",
+  "parent": "block/lit_pumpkin",
+  "textures": {
+        "particle": "#front",
+        "down": "#bottom",
+        "up": "#top",
+        "north": "#side",
+        "east": "#front",
+        "south": "#side",
+        "west": "#side"
+  },
     "display": {
         "gui": {
             "rotation": [ 30, 135, 0 ],
@@ -32,4 +41,4 @@
             "scale": [ 0.40, 0.40, 0.40 ]
         }
     }
-}
+}}
