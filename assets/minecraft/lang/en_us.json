@@ -33,6 +33,7 @@
 	"subtitles.entity.elder_guardian.flop": "Relic Guardian flops",
 	"subtitles.entity.elder_guardian.hurt": "Relic Guardian hurts",
 	"subtitles.entity.player.attack.crit":"Savage Blow",
+	"subtitles.entity.player.attack.sweep":"Wave Attack",
 	"subtitles.entity.piglin.converted_to_zombified":"Piglin converts to Ziglin",
 	"subtitles.entity.piglin_brute.converted_to_zombified":"Piglin Brute converts to Ziglin",
 	"subtitles.entity.hoglin.ambient": "Bore growls",
