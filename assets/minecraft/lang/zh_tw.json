@@ -41,6 +41,7 @@
     	"subtitles.entity.elder_guardian.flop": "\u53e4\u4ee3\u6df1\u6d77\u5b88\u885b\u62cd\u64ca\u8072",
     	"subtitles.entity.elder_guardian.hurt": "\u53e4\u4ee3\u6df1\u6d77\u5b88\u885b\u53d7\u50b7",
 	"subtitles.entity.player.attack.crit":"\u6e3e\u8eab\u4e00\u64ca",
+	"subtitles.entity.player.attack.sweep":"\u6ce2\u52d5\u653b\u64ca"
 	"subtitles.entity.piglin.converted_to_zombified":"\u8c6c\u5e03\u6797\u8f49\u5316\u70ba\u4e0d\u6b7b\u8c6c\u5e03\u6797",
 	"subtitles.entity.piglin_brute.converted_to_zombified":"\u8c6c\u5e03\u6797\u883b\u5175\u8f49\u5316\u70ba\u4e0d\u6b7b\u8c6c\u5e03\u6797",
 	"subtitles.entity.hoglin.ambient":"\u7345\u8c6c\u543c\u53eb",
