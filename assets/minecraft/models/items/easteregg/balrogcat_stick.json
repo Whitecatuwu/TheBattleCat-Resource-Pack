@@ -4,6 +4,11 @@
     "layer0": "minecraft:item/easteregg/balrogcat_stick"
   },
     "display": {
+	"ground": {
+            "rotation": [ 0, 0, 0],
+            "translation": [ 0, 0, 0],
+            "scale":[ 2, 2, 2 ]
+        },
         "thirdperson_righthand": {
             "rotation": [ 0, -90, 55 ],
             "translation": [ 0, 8.0, 0.5 ],
