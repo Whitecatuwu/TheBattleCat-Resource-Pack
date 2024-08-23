@@ -234,7 +234,8 @@
     "sounds": [
       {
         "name": "random/lightning_impact",
-        "volume": 1.0
+        "volume": 1.0,
+	"pitch":2.0
       }
     ],
     "subtitle": "subtitles.entity.lightning_bolt.impact",
