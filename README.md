@@ -2,8 +2,9 @@
 因為是從1.17.1直接弄過來的，
 如果遇到BUG請回報，謝謝。
 
-另外Sound音效包支援1.17.1版本以上，
-1.16.5版本以下可能有問題。
+理論上Sound音效包能支援1.10以上版本，
+雖然只有在1.17.1及更高版本測試過。
+
 
 # How to switch versions:
 ![GITHUB]( https://github.com/Whitecatuwu/TheBattleCat-Java/blob/main/img2.png?raw=true "img2.png")
