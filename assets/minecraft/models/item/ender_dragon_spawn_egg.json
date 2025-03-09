@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/template_spawn_egg_model",
+    "parent": "item/generated",
     "textures": {
-	"egg": "minecraft:item/spawneggs/ender_dragon_spawn_egg"
+        "layer0": "item/spawneggs/ender_dragon_spawn_egg"
     }
 }
