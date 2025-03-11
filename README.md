@@ -5,8 +5,12 @@
 理論上Sound音效包能支援1.10以上版本，
 雖然只在1.17.1及更高版本測試可行。
 
+# Download Link:
+https://whitecatuwu.github.io/BattleCatPackDownloads/
 
-# How to switch versions:
+# Or download from branchs:
+
+## How to switch versions:
 ![GITHUB]( https://github.com/Whitecatuwu/TheBattleCat-Java/blob/main/img2.png?raw=true "img2.png")
-# How to download:
+## How to download:
 ![GITHUB]( https://github.com/Whitecatuwu/TheBattleCat-Java/blob/main/img1.png?raw=true "img1.png")
