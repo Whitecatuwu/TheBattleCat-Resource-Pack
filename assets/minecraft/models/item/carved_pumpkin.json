@@ -1,10 +1,5 @@
 {
-  "parent": "minecraft:block/orientable",
-    "textures": {
-        "front": "minecraft:block/jack_o_lantern",
-        "side": "minecraft:block/pumpkin_side",
-        "top": "minecraft:block/pumpkin_top"
-    },
+  "parent": "minecraft:block/carved_pumpkin",
     "display": {
         "gui": {
             "rotation": [ 30, 135, 0 ],
@@ -37,4 +32,4 @@
             "scale": [ 0.40, 0.40, 0.40 ]
         }
     }
-}}
+}
