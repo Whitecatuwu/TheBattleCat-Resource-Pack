@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/template_spawn_egg_model",
     "textures": {
-	"egg": "minecraft:item/spawneggs/strider_spawn_egg"
+	"egg": "minecraft:item/spawneggs/zombie_pigman_spawn_egg"
     }
 }
