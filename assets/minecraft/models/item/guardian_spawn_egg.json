@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/template_spawn_egg_model",
-    "textures": {
-	"egg": "minecraft:item/spawneggs/guardian_spawn_egg"
-    }
-}
