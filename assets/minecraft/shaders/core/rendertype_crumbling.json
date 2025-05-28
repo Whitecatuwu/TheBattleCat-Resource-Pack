@@ -2,7 +2,7 @@
     "blend": {
         "func": "add",
         "srcrgb": "1",
-        "dstrgb": "1-srcalpha"
+        "dstrgb": "1-srcalpha"     
     },
     "vertex": "rendertype_crumbling",
     "fragment": "rendertype_crumbling",
