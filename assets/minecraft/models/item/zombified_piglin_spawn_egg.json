@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/spawneggs/zombified_piglin_spawn_egg"
+    }
+}
