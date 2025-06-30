@@ -1,20 +1,18 @@
 #version 150
 
 #moj_import <minecraft:fog.glsl>
+#moj_import <minecraft:globals.glsl>
+#moj_import <minecraft:dynamictransforms.glsl>
+#moj_import <minecraft:projection.glsl>
 
 in vec3 Position;
 in vec4 Color;
 in vec3 Normal;
 
-uniform mat4 ModelViewMat;
-uniform mat4 ProjMat;
-uniform float LineWidth;
-uniform vec2 ScreenSize;
-uniform int FogShape;
-uniform float GameTime;
-
-out float vertexDistance;
+out float sphericalVertexDistance;
+out float cylindricalVertexDistance;
 out vec4 vertexColor;
+
 out vec3 Pos;
 
 const float VIEW_SHRINK = 1.0 - (1.0 / 256.0);
@@ -34,6 +32,20 @@ void main() {
 
     vec2 lineScreenDirection = normalize((ndc2.xy - ndc1.xy) * ScreenSize);
     vec2 lineOffset = vec2(-lineScreenDirection.y, lineScreenDirection.x) * LineWidth / ScreenSize;
+
+    if (lineOffset.x < 0.0) {
+        lineOffset *= -1.0;
+    }
+
+    if (gl_VertexID % 2 == 0) {
+        gl_Position = vec4((ndc1 + vec3(lineOffset, 0.0)) * linePosStart.w, linePosStart.w);
+    } else {
+        gl_Position = vec4((ndc1 - vec3(lineOffset, 0.0)) * linePosStart.w, linePosStart.w);
+    }
+
+    sphericalVertexDistance = fog_spherical_distance(Position);
+    cylindricalVertexDistance = fog_cylindrical_distance(Position);
+
     //---------------------------
     Pos = Position;
     float frame = 30.0/2.0; // F/30f = 30*F/s
@@ -47,16 +59,4 @@ void main() {
         vertexColor = Color;
     }
     //----------------------------
-
-    if (lineOffset.x < 0.0) {
-        lineOffset *= -1.0;
-    }
-
-    if (gl_VertexID % 2 == 0) {
-        gl_Position = vec4((ndc1 + vec3(lineOffset, 0.0)) * linePosStart.w, linePosStart.w);
-    } else {
-        gl_Position = vec4((ndc1 - vec3(lineOffset, 0.0)) * linePosStart.w, linePosStart.w);
-    }
-
-    vertexDistance = fog_distance(Position, FogShape);
 }
