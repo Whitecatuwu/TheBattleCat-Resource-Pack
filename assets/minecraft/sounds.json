@@ -253,6 +253,36 @@
     ],
     "replace": true
   },
+  "block.end_gateway.spawn": {
+    "sounds": [
+      {
+        "name": "random/explode",
+        "pitch": 1.3
+      }
+    ],
+    "subtitle": "subtitles.entity.generic.explode",
+    "replace": true
+  },
+  "entity.dragon_fireball.explode": {
+    "sounds": [
+      {
+        "name": "random/explode",
+        "pitch": 1.3
+      }
+    ],
+    "subtitle": "subtitles.entity.generic.explode",
+    "replace": true
+  },
+  "entity.generic.explode": {
+    "sounds": [
+      {
+        "name": "random/explode",
+        "pitch": 1.3
+      }
+    ],
+    "subtitle": "subtitles.entity.generic.explode",
+    "replace": true
+  },
   "entity.lightning_bolt.impact": {
     "sounds": [
       {
