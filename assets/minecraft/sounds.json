@@ -407,7 +407,7 @@
     "sounds": [
       {
         "name": "ambient/weather/rain",
-        "volume": 0.15
+        "volume": 1.0
       }
     ],
     "subtitle": "subtitles.weather.rain",
@@ -417,7 +417,7 @@
     "sounds": [
       {
         "name": "ambient/weather/rain",
-        "volume": 0.15
+        "volume": 1.0
       }
     ],
     "subtitle": "subtitles.weather.rain",
