@@ -372,5 +372,25 @@
       }
     ],
     "replace": true
+  },
+  "weather.rain": {
+    "sounds": [
+      {
+        "name": "ambient/weather/rain",
+        "volume": 0.15
+      }
+    ],
+    "subtitle": "subtitles.weather.rain",
+    "replace": true
+  },
+  "weather.rain.above": {
+    "sounds": [
+      {
+        "name": "ambient/weather/rain",
+        "volume": 0.15
+      }
+    ],
+    "subtitle": "subtitles.weather.rain",
+    "replace": true
   }
 }
