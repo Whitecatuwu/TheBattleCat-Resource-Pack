@@ -222,14 +222,6 @@
     "replace":true
   },
 
-  "block.enchantment_table.use": {
-    "sounds": [
-      "block/enchantment_table/enchant"
-    ],
-    "subtitle": "subtitles.block.enchantment_table.use",
-    "replace":true
-  },
-
   "entity.lightning_bolt.impact": {
     "sounds": [
       {
@@ -328,14 +320,6 @@
       }
     ],
     "subtitle": "subtitles.entity.player.attack.sweep",
-    "replace":true
-  },
-
-  "item.shield.block": {
-    "sounds": [
-      "item/shield/block"
-    ],
-    "subtitle": "subtitles.item.shield.block",
     "replace":true
   },
 
