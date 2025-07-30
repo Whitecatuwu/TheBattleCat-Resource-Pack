@@ -7,9 +7,8 @@
         "volume": 0.1
       }
     ],
-    "replace":true
+    "replace": true
   },
-
   "music_disc.11": {
     "sounds": [
       {
@@ -18,9 +17,8 @@
         "volume": 0.2
       }
     ],
-    "replace":true
+    "replace": true
   },
-
   "music_disc.13": {
     "sounds": [
       {
@@ -29,9 +27,8 @@
         "volume": 0.2
       }
     ],
-    "replace":true
+    "replace": true
   },
-
   "music_disc.blocks": {
     "sounds": [
       {
@@ -40,9 +37,8 @@
         "volume": 0.2
       }
     ],
-    "replace":true
+    "replace": true
   },
-
   "music_disc.cat": {
     "sounds": [
       {
@@ -51,9 +47,8 @@
         "volume": 0.2
       }
     ],
-    "replace":true
+    "replace": true
   },
-
   "music_disc.chirp": {
     "sounds": [
       {
@@ -62,9 +57,8 @@
         "volume": 0.1
       }
     ],
-    "replace":true
+    "replace": true
   },
-
   "music_disc.far": {
     "sounds": [
       {
@@ -73,9 +67,8 @@
         "volume": 0.2
       }
     ],
-    "replace":true
+    "replace": true
   },
-
   "music_disc.mall": {
     "sounds": [
       {
@@ -84,9 +77,8 @@
         "volume": 0.2
       }
     ],
-    "replace":true
+    "replace": true
   },
-
   "music_disc.mellohi": {
     "sounds": [
       {
@@ -95,9 +87,8 @@
         "volume": 0.2
       }
     ],
-    "replace":true
+    "replace": true
   },
-
   "music_disc.otherside": {
     "sounds": [
       {
@@ -106,9 +97,8 @@
         "volume": 0.1
       }
     ],
-    "replace":true
+    "replace": true
   },
-
   "music_disc.pigstep": {
     "sounds": [
       {
@@ -117,9 +107,8 @@
         "volume": 0.2
       }
     ],
-    "replace":true
+    "replace": true
   },
-
   "music_disc.relic": {
     "sounds": [
       {
@@ -128,9 +117,8 @@
         "volume": 0.1
       }
     ],
-    "replace":true
+    "replace": true
   },
-
   "music_disc.stal": {
     "sounds": [
       {
@@ -139,9 +127,8 @@
         "volume": 0.2
       }
     ],
-    "replace":true
+    "replace": true
   },
-
   "music_disc.strad": {
     "sounds": [
       {
@@ -150,9 +137,8 @@
         "volume": 0.2
       }
     ],
-    "replace":true
+    "replace": true
   },
-
   "music_disc.wait": {
     "sounds": [
       {
@@ -161,9 +147,8 @@
         "volume": 0.1
       }
     ],
-    "replace":true
+    "replace": true
   },
-
   "music_disc.ward": {
     "sounds": [
       {
@@ -172,9 +157,58 @@
         "volume": 0.2
       }
     ],
-    "replace":true
+    "replace": true
   },
-
+  "music_disc.precipice": {
+    "sounds": [
+      {
+        "name": "records/precipice",
+        "stream": true,
+        "volume": 0.2
+      }
+    ],
+    "replace": true
+  },
+  "music_disc.creator": {
+    "sounds": [
+      {
+        "name": "records/creator",
+        "stream": true,
+        "volume": 0.2
+      }
+    ],
+    "replace": true
+  },
+  "music_disc.creator_music_box": {
+    "sounds": [
+      {
+        "name": "records/creator_music_box",
+        "stream": true,
+        "volume": 0.2
+      }
+    ],
+    "replace": true
+  },
+  "music_disc.tears": {
+    "sounds": [
+      {
+        "name": "records/tears",
+        "stream": true,
+        "volume": 0.2
+      }
+    ],
+    "replace": true
+  },
+  "music_disc.lava_chicken": {
+    "sounds": [
+      {
+        "name": "records/lava_chicken",
+        "stream": true,
+        "volume": 0.2
+      }
+    ],
+    "replace": true
+  },
   "music.credits": {
     "sounds": [
       {
@@ -182,9 +216,8 @@
         "stream": true
       }
     ],
-    "replace":true
+    "replace": true
   },
-
   "music.dragon": {
     "sounds": [
       {
@@ -193,9 +226,8 @@
         "volume": 0.5
       }
     ],
-    "replace":true
+    "replace": true
   },
-
   "music.menu": {
     "sounds": [
       {
@@ -219,21 +251,19 @@
         "volume": 0.4
       }
     ],
-    "replace":true
+    "replace": true
   },
-
   "entity.lightning_bolt.impact": {
     "sounds": [
       {
         "name": "random/lightning_impact",
         "volume": 1.0,
-	"pitch":2.0
+        "pitch": 2.0
       }
     ],
     "subtitle": "subtitles.entity.lightning_bolt.impact",
-    "replace":true
+    "replace": true
   },
-
   "entity.lightning_bolt.thunder": {
     "sounds": [
       {
@@ -242,9 +272,8 @@
       }
     ],
     "subtitle": "subtitles.entity.lightning_bolt.thunder",
-    "replace":true
+    "replace": true
   },
-
   "entity.player.attack.crit": {
     "sounds": [
       {
@@ -253,9 +282,8 @@
       }
     ],
     "subtitle": "subtitles.entity.player.attack.crit",
-    "replace":true
+    "replace": true
   },
-
   "entity.player.attack.nodamage": {
     "sounds": [
       {
@@ -264,9 +292,8 @@
       }
     ],
     "subtitle": "subtitles.entity.player.attack.weak",
-    "replace":true
+    "replace": true
   },
-
   "entity.player.attack.strong": {
     "sounds": [
       {
@@ -275,9 +302,8 @@
       }
     ],
     "subtitle": "subtitles.entity.player.attack.strong",
-    "replace":true
+    "replace": true
   },
-
   "entity.player.attack.weak": {
     "sounds": [
       {
@@ -286,32 +312,29 @@
       }
     ],
     "subtitle": "subtitles.entity.player.attack.weak",
-    "replace":true
+    "replace": true
   },
-
   "entity.player.death": {
     "sounds": [
       {
         "name": "damage/death",
         "volume": 1.0
-      } 
+      }
     ],
     "subtitle": "subtitles.entity.player.death",
-    "replace":true
+    "replace": true
   },
-
   "entity.player.attack.knockback": {
     "sounds": [
       {
         "name": "entity/player/attack/knockback",
         "volume": 0.8,
-	"pitch": 2.0
+        "pitch": 2.0
       }
     ],
     "subtitle": "subtitles.entity.player.attack.knockback",
-    "replace":true
+    "replace": true
   },
-
   "entity.player.attack.sweep": {
     "sounds": [
       {
@@ -320,20 +343,18 @@
       }
     ],
     "subtitle": "subtitles.entity.player.attack.sweep",
-    "replace":true
+    "replace": true
   },
-
   "entity.player.levelup": {
     "sounds": [
       {
-        "name":"random/levelup",
+        "name": "random/levelup",
         "volume": 0.5
       }
     ],
     "subtitle": "subtitles.entity.player.levelup",
-    "replace":true
+    "replace": true
   },
-
   "ui.toast.in": {
     "sounds": [
       {
@@ -341,9 +362,8 @@
         "volume": 0.6
       }
     ],
-    "replace":true
+    "replace": true
   },
-
   "ui.toast.out": {
     "sounds": [
       {
@@ -351,6 +371,6 @@
         "volume": 0.6
       }
     ],
-    "replace":true
+    "replace": true
   }
 }
