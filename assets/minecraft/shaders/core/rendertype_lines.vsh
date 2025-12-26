@@ -1,4 +1,4 @@
-#version 150
+#version 330
 
 #moj_import <minecraft:fog.glsl>
 #moj_import <minecraft:globals.glsl>
@@ -8,12 +8,11 @@
 in vec3 Position;
 in vec4 Color;
 in vec3 Normal;
+in float LineWidth;
 
 out float sphericalVertexDistance;
 out float cylindricalVertexDistance;
 out vec4 vertexColor;
-
-out vec3 Pos;
 
 const float VIEW_SHRINK = 1.0 - (1.0 / 256.0);
 const mat4 VIEW_SCALE = mat4(
@@ -45,9 +44,9 @@ void main() {
 
     sphericalVertexDistance = fog_spherical_distance(Position);
     cylindricalVertexDistance = fog_cylindrical_distance(Position);
-
-    //---------------------------
-    Pos = Position;
+    vertexColor = Color;
+	
+	//---------------------------
     float frame = 30.0/2.0; // F/30f = 30*F/s
     float animation = GameTime * 1200 * 3.14 * frame;
 
