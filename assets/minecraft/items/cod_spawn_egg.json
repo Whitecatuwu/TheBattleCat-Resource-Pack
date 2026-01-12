@@ -1,6 +1,6 @@
 {
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:item/cod_spawn_egg"
+        "model": "minecraft:item/spawn_egg/cod_spawn_egg"
     }
 }

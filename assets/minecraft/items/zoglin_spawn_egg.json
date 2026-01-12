@@ -1,6 +1,6 @@
 {
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:item/zoglin_spawn_egg"
+        "model": "minecraft:item/spawn_egg/zoglin_spawn_egg"
     }
 }
