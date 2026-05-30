@@ -1,19 +1,5020 @@
 {
   "model": {
-	"type": "minecraft:select",
-	"property": "minecraft:component","component": "minecraft:suspicious_stew_effects",
-	"cases": [
-	{"when": [{"duration":7,"id":"minecraft:saturation"}],"model": {"type": "minecraft:model","model": "minecraft:item/suspicious_stew/saturation"}},
-	{"when": [{"duration":220,"id":"minecraft:blindness"}],"model": {"type": "minecraft:model","model": "minecraft:item/suspicious_stew/blindness"}},
-	{"when": [{"duration":140,"id":"minecraft:nausea"}],"model": {"type": "minecraft:model","model": "minecraft:item/suspicious_stew/nausea"}},
-	{"when": [{"duration":100,"id":"minecraft:night_vision"}],"model": {"type": "minecraft:model","model": "minecraft:item/suspicious_stew/night_vision"}},
-	{"when": [{"duration":60,"id":"minecraft:fire_resistance"}],"model": {"type": "minecraft:model","model": "minecraft:item/suspicious_stew/fire_resistance"}},
-	{"when": [{"duration":140,"id":"minecraft:weakness"}],"model": {"type": "minecraft:model","model": "minecraft:item/suspicious_stew/weakness"}},
-	{"when": [{"duration":140,"id":"minecraft:regeneration"}],"model": {"type": "minecraft:model","model": "minecraft:item/suspicious_stew/regeneration"}},
-	{"when": [{"duration":100,"id":"minecraft:jump_boost"}],"model": {"type": "minecraft:model","model": "minecraft:item/suspicious_stew/jump_boost"}},
-	{"when": [{"duration":220,"id":"minecraft:poison"}],"model": {"type": "minecraft:model","model": "minecraft:item/suspicious_stew/poison"}},
-	{"when": [{"duration":140,"id":"minecraft:wither"}],"model": {"type": "minecraft:model","model": "minecraft:item/suspicious_stew/wither"}}
-	],
-	"fallback": {"type": "minecraft:model","model": "minecraft:item/suspicious_stew"}
-	}
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:suspicious_stew_effects",
+    "cases": [
+      {
+        "when": [
+          {
+            "id": "minecraft:fire_resistance",
+            "duration": 60
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/fire_resistance"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 100
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 101
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 102
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 103
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 104
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 105
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 106
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 107
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 108
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 109
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 110
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 111
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 112
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 113
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 114
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 115
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 116
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 117
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 118
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 119
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 120
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 121
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 122
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 123
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 124
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 125
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 126
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 127
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 128
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 129
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 130
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 131
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 132
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 133
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 134
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 135
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 136
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 137
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 138
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 139
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 140
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 220
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/blindness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:saturation",
+            "duration": 7
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/saturation"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:saturation",
+            "duration": 8
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/saturation"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:saturation",
+            "duration": 9
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/saturation"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:saturation",
+            "duration": 10
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/saturation"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 100
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 140
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 141
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 142
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 143
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 144
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 145
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 146
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 147
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 148
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 149
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 150
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 151
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 152
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 153
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 154
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 155
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 156
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 157
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 158
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 159
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 160
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 161
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 162
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 163
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 164
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 165
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 166
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 167
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 168
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 169
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 170
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 171
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 172
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 173
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 174
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 175
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 176
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 177
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 178
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 179
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 180
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 181
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 182
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 183
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 184
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 185
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 186
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 187
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 188
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 189
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 190
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 191
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 192
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 193
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 194
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 195
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 196
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 197
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 198
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 199
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 200
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/jump_boost"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 200
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 201
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 202
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 203
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 204
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 205
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 206
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 207
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 208
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 209
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 210
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 211
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 212
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 213
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 214
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 215
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 216
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 217
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 218
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 219
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 220
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 221
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 222
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 223
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 224
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 225
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 226
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 227
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 228
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 229
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 230
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 231
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 232
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 233
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 234
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 235
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 236
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 237
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 238
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 239
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 240
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 241
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 242
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 243
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 244
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 245
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 246
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 247
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 248
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 249
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 250
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 251
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 252
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 253
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 254
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 255
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 256
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 257
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 258
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 259
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 260
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 261
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 262
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 263
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 264
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 265
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 266
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 267
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 268
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 269
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 270
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 271
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 272
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 273
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 274
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 275
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 276
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 277
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 278
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 279
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 280
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 281
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 282
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 283
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 284
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 285
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 286
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 287
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 288
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 289
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 290
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 291
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 292
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 293
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 294
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 295
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 296
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 297
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 298
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 299
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 300
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 301
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 302
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 303
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 304
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 305
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 306
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 307
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 308
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 309
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 310
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 311
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 312
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 313
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 314
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 315
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 316
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 317
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 318
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 319
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 320
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 321
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 322
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 323
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 324
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 325
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 326
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 327
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 328
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 329
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 330
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 331
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 332
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 333
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 334
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 335
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 336
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 337
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 338
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 339
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 340
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 341
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 342
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 343
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 344
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 345
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 346
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 347
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 348
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 349
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 350
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 351
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 352
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 353
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 354
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 355
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 356
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 357
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 358
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 359
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 360
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 361
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 362
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 363
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 364
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 365
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 366
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 367
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 368
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 369
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 370
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 371
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 372
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 373
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 374
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 375
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 376
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 377
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 378
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 379
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 380
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 381
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 382
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 383
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 384
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 385
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 386
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 387
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 388
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 389
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 390
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 391
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 392
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 393
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 394
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 395
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 396
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 397
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 398
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 399
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:poison",
+            "duration": 400
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:regeneration",
+            "duration": 140
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/regeneration"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 100
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 140
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 141
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 142
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 143
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 144
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 145
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 146
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 147
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 148
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 149
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 150
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 151
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 152
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 153
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 154
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 155
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 156
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 157
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 158
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 159
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 160
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 161
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 162
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 163
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 164
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 165
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 166
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 167
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 168
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 169
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 170
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 171
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 172
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 173
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 174
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 175
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 176
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 177
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 178
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 179
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 180
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 181
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 182
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 183
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 184
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 185
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 186
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 187
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 188
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 189
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 190
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 191
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 192
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 193
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 194
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 195
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 196
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 197
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 198
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 199
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:night_vision",
+            "duration": 200
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/night_vision"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 180
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 120
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 121
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 122
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 123
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 124
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 125
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 126
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 127
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 128
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 129
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 130
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 131
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 132
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 133
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 134
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 135
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 136
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 137
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 138
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 139
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 140
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 141
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 142
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 143
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 144
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 145
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 146
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 147
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 148
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 149
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 150
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 151
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 152
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 153
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 154
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 155
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 156
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 157
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 158
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 159
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:weakness",
+            "duration": 160
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "id": "minecraft:wither",
+            "duration": 140
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/wither"
+        }
+      },
+      {
+        "when": [
+          [
+          {
+            "id": "nausea",
+            "duration": 140
+
+          }
+        ]
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/suspicious_stew/nausea"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/suspicious_stew"
+    }
+  }
 }
